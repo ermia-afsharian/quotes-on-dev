@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+# front
+--------------------------------------------------------------*/
+button{
+	border:2px #00cc00 solid;
+	box-shadow:none;
+	text-shadow:none;
+	background:none;
+	color:#00cc00;
+	&:hover{
+	box-shadow:none;
+	text-shadow:none;
+	}
+}
