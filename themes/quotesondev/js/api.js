@@ -6,10 +6,6 @@ $.ajax({
 }
 ).done(function (data) {
   $('#quotes').innerHTML=" ";
-  console.log(data)
-  console.log(data[0].title.rendered)
-  console.log(data[0].content.rendered)
-  console.log(data[0].link)
 
   const title =data[0].title.rendered;
   const content =data[0].content.rendered;

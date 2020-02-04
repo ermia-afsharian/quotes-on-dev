@@ -1,0 +1,23 @@
+article.quote-article{
+    border-bottom: 1px white dotted;
+    border-top: 1px white dotted;
+
+    text-align: left;
+    .entry-content{
+        font-size: 23px;
+    }
+    .entry-header a{
+        color: white ;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+    }
+    h2::before{
+        content: "_";
+        font-weight: 300;
+        
+    }
+}
+.entry-title{
+    color: white;
+}

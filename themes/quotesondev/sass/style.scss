@@ -81,14 +81,46 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "front";
 @import "search";
 @import "footer";
+@import "category";
+
 
 body{
+  @include desktop{
+    header{
+      text-align: center;
+    }
+    #btn{
+      margin:0 auto;
+    }
+    
+  }
 	background:#222222;
 	color:white;
 	padding:15px;
 	font-family: 'Exo';
 	font-weight: 500;
 font-style: italic;
+}
+.entry-title{
+  text-align: left;
+}
+.page-title{
+  text-align: left;
+
+}
+section{
+  text-align: left;
+  font-family: 'Exo';
+  font-weight: 300;
+  font-style: normal;
+  h1{
+    font-size: 30px;
+  }
+  a{
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 10px;
+  }
 }
 a{
 	color:#00cc00;
@@ -97,5 +129,35 @@ a{
 a:visited{
 	color:#00cc00;
 
+}
+.content-area{
+  @include desktop{
+    margin:0 13vw;
+    padding: 20px;
+    position: relative;
+  }
+}
+.content-area::before{
+  @include desktop{
+  position: absolute;
+  top:0;
+  left:-100px;
+  display: inline;
+  clear: both;
+  font-family: FontAwesome;
+  color:#00cc00;
+  content: '\f10d';
+  font-size: 80px;}
+}
+.content-area::after{
+  @include desktop{
+
+  position: absolute;
+  top:0;
+  right:-100px;
+  font-family: FontAwesome;
+  color:#00cc00;
+  content: '\f10e';
+  font-size: 80px;}
 }
 

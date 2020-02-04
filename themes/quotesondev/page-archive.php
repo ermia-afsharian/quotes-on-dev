@@ -9,13 +9,13 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
-
+            <?php while ( have_posts() ) : the_post(); ?>
+            
+            <?php get_template_part( 'template-parts/content', 'page' ); ?>
+            
 			<?php endwhile; // End of the loop. ?>
             <section>
+                <h1>Qoutes Author</h1>
 
                 <?php
                     $args = array( 'post_type' => 'post', 'numberposts'=>'999');
@@ -31,6 +31,8 @@ get_header(); ?>
             </section>    
             <br>
             <section>
+            <h1>Categories</h1>
+
             <?php
                 $categories = get_categories( array(
                     'orderby' => 'name',
@@ -43,6 +45,7 @@ get_header(); ?>
             </section>
             <br>
             <section>
+                <h1>Tags</h1>
                 <?php
                 $tags = get_tags();
                 foreach ( $tags as $tag ):?>

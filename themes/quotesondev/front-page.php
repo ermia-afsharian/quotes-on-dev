@@ -16,7 +16,7 @@ get_header(); ?>
                 ?>
                 
                     <?php foreach ( $quote_posts as $post ) : setup_postdata( $post ); ?>
-                    <p><a href="<?php the_permalink(); ?>"><?php the_content(); ?></a></p>
+                    <p ><a class="front-quotes" href="<?php the_permalink(); ?>"><?php the_content(); ?></a></p>
                     <p><?php the_title(); ?></p>
 
              <?php endforeach; wp_reset_postdata(); ?>

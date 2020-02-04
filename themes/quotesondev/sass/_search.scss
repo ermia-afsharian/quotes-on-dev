@@ -16,4 +16,8 @@ fieldset button{
 	background:none;
 	border:none;
 	color:#00cc00;
+	&:hover{
+	box-shadow:none;
+	text-shadow:none;
+	}
 }
