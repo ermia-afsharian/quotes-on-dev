@@ -17,6 +17,13 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_content(); ?>
+		<?php the_content();
+		$meta_source=get_post_meta(get_the_ID(),'_qod_quote_source',true);
+		$meta_source_url=get_post_meta(get_the_ID(),'_qod_quote_source_url',true);
+
+		if ( $meta_source) {
+		   echo "<a href='" .  $meta_source_url ."'>" . $meta_source ."</a>";
+		}; ?>
+		
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->

@@ -22,3 +22,14 @@ button{
 	font-style: normal;
 	text-align: left;
 }
+.site-main #btn{
+	font-family: "exo";
+	font-size: 17px;
+	font-weight: 400;
+	font-style: normal;
+	padding:15px 25px;
+	@include desktop{
+		margin :15px 38%;
+		text-align: center;
+	}
+}

@@ -645,6 +645,19 @@ button {
   font-style: normal;
   text-align: left; }
 
+.site-main #btn {
+  font-family: "exo";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 15px 25px; }
+  @media screen and (min-width: 1240px) {
+    .site-main #btn {
+      margin: 15px 38%;
+      text-align: center; }
+      .site-main #btn .logo {
+        width: 100px; } }
+
 /*--------------------------------------------------------------
 # search
 --------------------------------------------------------------*/
@@ -668,10 +681,14 @@ fieldset button {
             box-shadow: none;
     text-shadow: none; }
 
+.search-submit {
+  font-size: 20px; }
+
 /*--------------------------------------------------------------
 # footer
 --------------------------------------------------------------*/
 .footer-nav {
+  font-style: normal;
   list-style: none;
   margin-top: 70px; }
   @media screen and (min-width: 1240px) {
