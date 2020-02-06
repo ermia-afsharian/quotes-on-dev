@@ -19,6 +19,9 @@ get_header(); ?>
 			<?php  if ( !is_user_logged_in() ):?>
 			<h1>Submit a Quote</h1>
 			<p>	Sorry,you must be logged in to submit a quote!</p>
+			<a href="/redqoutes/wp-admin">click to login!
+		
+		</a>
 			<?php endif;?>
 		</main><!-- #main -->
 	</div><!-- #primary -->

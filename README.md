@@ -9,7 +9,7 @@ this is the web site to get diffrent quoted about web development.
 ## Quick start
 
 * Clone the git repo — `git clone
-  https://github.com/ermia-afshaian/instanews.git`  
+  https://github.com/ermia-afshaian/quotes-on-dev`  
 * Install with [npm](https://www.npmjs.com/): `npm install`.
 * run gulp
 ## Tools
