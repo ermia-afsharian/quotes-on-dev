@@ -4,6 +4,7 @@ plugins/*
 !plugins/
 !plugins/contact-form-7
 !themes/
+!screenshot/
 !uploads/
 !README.md
 # Ignore everything in "plugins" except certain plugins. #
