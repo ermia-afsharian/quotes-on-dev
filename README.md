@@ -4,7 +4,7 @@
 
 this is the web site to get diffrent quoted about web development.
 
-![alt text](https://github.com/ermia-afshaian/quotes-on-dev/screenshot/quotesondev.jpg)
+![quotes-on-dev-image](quotesondev.jpg)
 
 
 ## Quick start
