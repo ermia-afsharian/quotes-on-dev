@@ -4,6 +4,7 @@
 
 this is the web site to get diffrent quoted about web development.
 
+![alt text](https://github.com/ermia-afshaian/quotes-on-dev/screenshot/quotesondev.jpg)
 
 
 ## Quick start
@@ -19,9 +20,9 @@ this is the web site to get diffrent quoted about web development.
 
 ## Personal learnings
 
-* the use of ajax and GET/POST methods
-* how to use gulp and gulp plugins 
-* how to effectively use display:grid in css;
+* the use of ajax together with worldpress
+* how to use php properly in relation with js,jquery and sass 
+* how to  work with worpress plugins and use them in backend coding;
 ## contributers
 
 -ermia afsharian
